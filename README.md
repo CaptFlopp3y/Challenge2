@@ -32,3 +32,4 @@ THEN I find a concise, descriptive title
 
 [challenge link site](https://captflopp3y.github.io/Challenge2/)
 
+![alt text](PreviewChallenge2.png)
