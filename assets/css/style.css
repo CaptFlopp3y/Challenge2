@@ -1,29 +1,30 @@
+/* apply to the full code */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* the page its self */
 body {
     background-color: #d9dcd6;
 }
-
+/* header styling */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* All h1 tags for header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* All h1 tags for header .seo*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* div for the header elements */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +32,25 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* div for the header elements */
 .header div ul {
     list-style-type: none;
 }
-
+/* div for the header elements */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* anchor has in links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* the paragraph front */
 p {
     font-size: 16px;
 }
-
+/* elements with the hero class */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +59,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* class to help float elements */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* class to help float elements */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* helps the placement of the container */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* allows the aside stacks */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,55 +86,55 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* allows blocking and stacking potion of the paragrah */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* allows blocking and stacking potion of the paragrah */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* allows blocking and stacking potion of the paragrah*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* allows blocking and stacking for tittles */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* allows blocking and stacking for tittles */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* allows blocking and stacking for tittles */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* allows blocking and stacking for images */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* allows blocking and stacking for images */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* allows blocking and stacking for images */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* allows blocking and stacking */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -142,7 +143,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* allows blocking and stacking */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,7 +152,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* allows blocking and stacking */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,41 +161,41 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* the size of the img */
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/* the size of the img */
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/* the size of the img */
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* the size of the tittle and postion */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* the size of the tittle and postion */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* the size of the tittle and postion */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* the size, postion,font style */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* the size of the tittle font */
 .footer h2 {
     font-size: 20px;
 }
